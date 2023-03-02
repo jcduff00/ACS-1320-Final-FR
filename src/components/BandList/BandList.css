@@ -1,0 +1,15 @@
+.BandList { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 4em;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    font-family: monospace; 
+    font-size: 12px; 
+    padding: 1em;
+    border: 10px solid rgb(86, 0, 0);
+}
+
+.BandList form { 
+    border-bottom: 4px rgb(86, 0, 0);
+}
